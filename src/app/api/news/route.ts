@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 export async function GET(request: NextRequest) {
   try {
     // TODO: Implement news fetching logic
-    const news = [];
+    const news: any[] = [];
     return NextResponse.json(news);
   } catch (error) {
     return NextResponse.json(

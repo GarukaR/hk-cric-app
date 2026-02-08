@@ -3,7 +3,7 @@
 import NewsItem from '../../components/NewsItem/NewsItem';
 
 export default function NewsList() {
-  const news = [];
+  const news: any[] = [];
 
   return (
     <div className="space-y-4">

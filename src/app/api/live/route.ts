@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 export async function GET(request: NextRequest) {
   try {
     // TODO: Implement live scores fetching logic
-    const liveData = [];
+    const liveData: any[] = [];
     return NextResponse.json(liveData);
   } catch (error) {
     return NextResponse.json(
