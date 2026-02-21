@@ -1,6 +1,6 @@
 'use client';
 
-import PlayerList from '../sections/players/PlayerList';
+import PlayerList from '../components/sections/players/PlayerList';
 
 export default function PlayersPage() {
   return (

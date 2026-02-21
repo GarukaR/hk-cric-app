@@ -1,6 +1,6 @@
 'use client';
 
-import VideoPlayer from '../../components/VideoPlayer/VideoPlayer';
+import VideoPlayer from '../../VideoPlayer/VideoPlayer';
 
 export default function VideoGrid() {
   const videos = [

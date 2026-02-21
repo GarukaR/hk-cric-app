@@ -1,6 +1,6 @@
 'use client';
 
-import VideoGrid from '../sections/videos/VideoGrid';
+import VideoGrid from '../components/sections/videos/VideoGrid';
 
 export default function VideosPage() {
   return (

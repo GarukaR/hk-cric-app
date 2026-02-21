@@ -1,6 +1,6 @@
 'use client';
 
-import NewsItem from '../../components/NewsItem/NewsItem';
+import NewsItem from '../../NewsItem/NewsItem';
 
 export default function NewsList() {
   const news: any[] = [];
