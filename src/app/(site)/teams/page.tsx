@@ -1,6 +1,6 @@
 'use client';
 
-import TeamList from '../sections/teams/TeamList';
+import TeamList from '../components/sections/teams/TeamList';
 
 export default function TeamsPage() {
   return (

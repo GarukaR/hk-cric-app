@@ -1,13 +1,7 @@
-import Hero from './sections/home/Hero';
-import LatestNews from './sections/home/LatestNews';
-import UpcomingMatches from './sections/home/UpcomingMatches';
-
 export default function Home() {
   return (
-    <div>
-      <Hero />
-      <LatestNews />
-      <UpcomingMatches />
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-3xl font-bold">Home</h1>
     </div>
   );
 }

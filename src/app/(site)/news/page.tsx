@@ -1,7 +1,7 @@
 'use client';
 
-import NewsList from '../sections/news/NewsList';
-import NewsCategories from '../sections/news/NewsCategories';
+import NewsList from '../components/sections/news/NewsList';
+import NewsCategories from '../components/sections/news/NewsCategories';
 
 export default function NewsPage() {
   return (
